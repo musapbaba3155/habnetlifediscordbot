@@ -11,8 +11,7 @@ exports.run = (client, message, params) => {
   .addField("**[1]Eğlence Komutları**", `l!eğlence`)
   .addField("**[2]Yetkili Komutları**", `l!yetkili`)
   .addField("**[3]Kullanıcı Komutları**", "l!kullanıcı")
-  .addField("**[4]Müzik Komutları**", "l!müzik")
-  .setFooter('**_HabnetLife.com Discord Bot_**')
+  .setImage("https://i.hizliresim.com/vP7Rmp.png")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
