@@ -1,6 +1,5 @@
 {
-    "token" : "saklı",
-	"adminID" : "456756489345040386",
-    "prefix" : "l!",
-	"passes" : 1
+  "prefix": "l!",
+  "sahip": "456756489345040386",
+  "token": "saklı"
 }
